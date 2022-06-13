@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 100%;
+}
+/* #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  } */
+.container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(239, 239, 239);
+    font-family: 'Indie Flower', cursive;
+    display: grid;
+    place-content: center;
+    /* background-color: rgb(84, 84, 84); */
+    background-image: url(./music/ContentJitteryCats-size_restricted.gif);
+
+}
+.loki-animation{
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30rem;
+    transform: translateX(60% , 80%);
+}
+.loki-animation .element{
+    text-shadow: 0 0 0.8em rgb(230, 237, 196), 0 0 0.5em rgb(234, 240, 67)  ;
+    mix-blend-mode:  screen;
+}
